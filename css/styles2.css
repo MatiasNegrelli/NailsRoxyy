@@ -1,0 +1,462 @@
+/* Fuente --> font-family: 'Kaushan Script', cursive; 
+Fuente --> font-family: 'Playfair Display', serif;
+*/
+
+/* colores: 
+rosita claro --> EABFCB
+rosita --> C191A1
+lila --> A4508B
+lila oscuro --> 5F0A87
+lila muy oscuro --> 2F004F */
+
+/* sliders */
+/* https://codepen.io/jebbles/pen/MKoYya */
+/* https://codepen.io/joshnh/pen/kOWrXk */
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+/* start of header */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EABFCB;
+    align-items: center;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 600%;
+    color: #A4508B;
+    text-align: center;
+}
+
+.dif-color{
+    color: #EABFCB;
+}
+
+.dif-link:hover{
+    color: white;
+}
+
+.logo_roxy{
+    height: 100%;
+    width: 130px;
+    border-radius: 75%;
+}
+
+.link_navegadores{
+    margin: 50px;
+    color: black;
+    font-size: 300%;
+}
+
+.link_navegadores:hover {
+    color: white;
+}
+
+.nav_movil{
+    display: none;
+}
+
+/* end of header */
+
+/* Galeria */
+
+/* first acordeon (settings) */
+
+.w-modificado{
+    width: 100%;
+    height: 400px;
+    object-fit: scale-down;
+    margin-top: 2.5%;
+}
+
+.carousel-control-next-icon{
+    width: 30%;
+    height: 10%;
+}
+.carousel-control-prev-icon{
+    width: 30%;
+    height: 10%;
+}
+
+/* end of acordeon (settings) */
+
+/* fondo del main */
+
+.container2{
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    --sz: 15px;
+    --c0: #000;
+    --c1: #c71175;
+    --ts: 50% / calc(var(--sz) * 8) calc(var(--sz) * 16);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    --dot: var(--c1) 0 calc(var(--sz) * 0.78),
+      #fff0 calc(calc(var(--sz) * 0.78) + 1px) 100%;
+    --dot2: radial-gradient(circle at 90% 0%, var(--dot)) var(--ts),
+        radial-gradient(circle at 65% 0%, var(--dot)) var(--ts),
+        radial-gradient(circle at 40% 0%, var(--dot)) var(--ts),
+        radial-gradient(circle at 15% 0%, var(--dot)) var(--ts);
+    --cg1: conic-gradient(from -90deg at 5% 51%, var(--c0) 0 90deg, #fff0 0 100%)
+        var(--ts);
+    --cg2: conic-gradient(from -90deg at 25% 50%, var(--c1) 0 90deg, #fff0 0 100%)
+        var(--ts);
+    --cg3: conic-gradient(
+        from -90deg at 30% 38.5%,
+        var(--c0) 0 90deg,
+        #fff0 0 100%
+    )
+        var(--ts);
+    --cg4: conic-gradient(
+        from -90deg at 50% 37.5%,
+        var(--c1) 0 90deg,
+        #fff0 0 100%
+    )
+        var(--ts);
+    --cg5: conic-gradient(from -90deg at 55% 26%, var(--c0) 0 90deg, #fff0 0 100%)
+        var(--ts);
+    --cg6: conic-gradient(from -90deg at 75% 25%, var(--c1) 0 90deg, #fff0 0 100%)
+        var(--ts);
+    --cg7: conic-gradient(
+        from -90deg at 80% 13.5%,
+        var(--c0) 0 90deg,
+        #fff0 0 100%
+    )
+        var(--ts);
+    --cg8: conic-gradient(
+        from -90deg at 100% 12.5%,
+        var(--c1) 0 90deg,
+        #fff0 0 100%
+    )
+        var(--ts);
+
+    background: var(--dot2), var(--dot2),
+        radial-gradient(circle at 90% 100%, var(--dot)) var(--ts),
+        radial-gradient(circle at 65% 100%, var(--dot)) var(--ts),
+        radial-gradient(circle at 40% 100%, var(--dot)) var(--ts),
+        radial-gradient(circle at 15% 100%, var(--dot)) var(--ts),
+        radial-gradient(circle at 90% 12.5%, var(--dot)) var(--ts),
+        radial-gradient(circle at 65% 25%, var(--dot)) var(--ts),
+        radial-gradient(circle at 40% 37.5%, var(--dot)) var(--ts),
+        radial-gradient(circle at 15% 50%, var(--dot)) var(--ts), var(--cg1),
+        var(--cg1), var(--cg2), var(--cg2), var(--cg3), var(--cg3), var(--cg4),
+        var(--cg4), var(--cg5), var(--cg5), var(--cg6), var(--cg6), var(--cg7),
+        var(--cg7), var(--cg8), var(--cg8),
+        linear-gradient(-45deg, #fff0 0 32.25%, #0002 50%, #000 77.5%) var(--ts),
+        linear-gradient(-45deg, #fff0 0 32.25%, #000 60%) var(--ts),
+        repeating-linear-gradient(90deg, var(--c0) 0 5%, var(--c1) 0 25%) var(--ts);
+}
+
+/* fin del fondo del main */
+
+h5{
+    font-size: 200%;
+    color: black;
+}
+
+/* start of footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:   #A4508B;
+    height: 100%;
+    margin-top: 2%;
+}
+
+#contactos{
+    display: grid;
+    grid-template-areas: 
+    "titulo"
+    "telefono";
+    justify-items: center;
+}
+
+.tel{
+    grid-area: telefono;
+    font-size: 30px;
+
+}
+
+.contact{
+    grid-area: titulo;
+}
+
+.card1 {
+    width: fit-content;
+    height: 80px;
+    background-color: #A4508B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    }
+    /* for all social containers*/
+    .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    }
+    /* instagram*/
+    .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+    }
+    /* facebook*/
+    .containerTwo:hover {
+    background-color: #39559f;
+    transition-duration: .3s;
+}
+
+
+/* Whatsapp*/
+.containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 30px;
+}
+
+.facebook{
+width: 40px;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+  @keyframes slide-in-top {
+    0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    }
+
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+    }
+    }
+
+/* iconos de adorno */
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 1%;
+}
+
+.slider {
+  overflow: hidden;
+  background-color: white;
+  margin: 0 15px;
+  height: 80px;
+  width: 20px;
+  border-radius: 30px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 30px #fff,
+    inset -5px -5px 10px rgba(0, 0, 255, 0.1),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.3), 0px 420px 0 400px #2697f3,
+    inset 0px 0px 0px rgba(0, 0, 0, 0.1);
+  animation: animate_2 2.5s ease-in-out infinite;
+  animation-delay: calc(-0.5s * var(--i));
+}
+
+@keyframes animate_2 {
+  0% {
+    transform: translateY(250px);
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+    100% {
+    transform: translateY(250px);
+    filter: hue-rotate(180deg);
+    }
+}
+
+
+.texto{
+    font-size: 200%;
+    line-height: 13px;
+    margin: 5px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+  }
+/* end of footer */
+
+
+
+
+/* smartphone */
+@media (max-width: 1280px){
+
+
+    .logo_roxy{
+        height: 100%;
+        width: 100px;
+        border-radius: 75%;
+    }
+    .title {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 400%;
+        color: #A4508B;
+    }
+    ul{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        padding: 2%;
+    }
+    .nav_movil{
+        display: flex;
+        background-color: #A4508B;
+    }
+
+    .color{
+        color: #EABFCB;
+        background-color: #A4508B;
+    }
+
+    .color1{
+        color: #EABFCB;
+        background-color: #A4508B;
+    }
+
+    .btn:hover{
+        color: inherit;
+        color:#EABFCB;
+        background-color: #A4508B;
+    }
+
+    .background-color{
+        background-color: #A4508B;
+    }
+
+    .color2{
+        color: #EABFCB;
+    }
+
+    .link_navegadores{
+        color: black;
+        font-size: 120%;
+    }
+    .navegadores{
+        margin-top: 5px;
+    }
+
+    .texto{
+        font-size: 11px;
+        line-height: 13px;
+        margin: 5px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .dif-color{
+        color: #EABFCB;
+    }
+
+    .w-modificado{
+        width: 70%;
+        height: 400px;
+        object-fit: scale-down;
+        margin-top: 2.5%;
+    }
+
+
+
+    .carousel-item.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto{
+        font-size: 11px;
+        line-height: 13px;
+        margin: 5px;
+        font-family: 'Playfair Display', serif;
+    }
+    .ajustes2{
+        font-size: 800%;
+    }
+
+}
+
+@media (max-width: 720px){
+    .none{
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px){
+    .none{
+        display: none;
+    }
+
+    .ajustes2{
+        font-size: 800%;
+    }
+}
