@@ -413,6 +413,7 @@ footer{
   .nav_movil{
     display: flex;
     background-color: #A4508B;
+    margin: 5%;
   }
 
   .color{
