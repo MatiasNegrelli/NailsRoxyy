@@ -54,7 +54,8 @@ header{
 .link_navegadores{
     margin: 50px;
     color: black;
-    font-size: 300%;
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;;
 }
 
 .link_navegadores:hover {
@@ -417,6 +418,7 @@ footer{
   .color{
     color: #EABFCB;
     background-color: #A4508B;
+    width: 100%;
   }
 
   .color1{
@@ -428,6 +430,16 @@ footer{
     color: inherit;
     color:#EABFCB;
     background-color: #A4508B;
+  }
+
+  .dropdown{
+    width: 400px;
+    text-align: center;
+  }
+
+  .dropdown-menu{
+    width: 400px;
+    text-align: center;
   }
 
   .background-color{
@@ -499,6 +511,15 @@ footer{
   .loader{
       display: none;
   }
+  .dropdown{
+    width: 200px;
+    text-align: center;
+  }
+
+  .dropdown-menu{
+    width: 200px;
+    text-align: center;
+  }
 }
 
 
@@ -510,5 +531,33 @@ footer{
 
   .ajustes2{
     font-size: 800%;
+  }
+  .dropdown{
+    width: 100px;
+    text-align: center;
+  }
+
+  .dropdown-menu{
+    width: 100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px){
+  .none{
+    display: none;
+  }
+
+  .ajustes2{
+    font-size: 800%;
+  }
+  .dropdown{
+    width: 80px;
+    text-align: center;
+  }
+
+  .dropdown-menu{
+    width: 80px;
+    text-align: center;
   }
 }
