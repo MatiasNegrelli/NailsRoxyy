@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
     <section
       id="home"
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('../Public/portada.jpg')" }}
+      style={{ backgroundImage: "url('/portada.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative z-10 text-center text-white p-6">

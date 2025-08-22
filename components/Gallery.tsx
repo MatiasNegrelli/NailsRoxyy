@@ -5,42 +5,42 @@ const galleryImages = [
   // Total cells = 16 (4+2+2+1+2+1+2+2) which is a multiple of 4 (md:grid-cols-4).
   // On mobile (grid-cols-2), no spans apply, resulting in a simple 2-column layout.
   {
-    src: "../Public/img1.jpg",
+    src: "/img1.jpg",
     alt: "Diseño de uñas 1",
     span: "md:col-span-2 md:row-span-2",
   },
   {
-    src: "../Public/img2.jpg",
+    src: "/img2.jpg",
     alt: "Diseño de uñas 2",
     span: "md:col-span-2 md:row-span-1",
   },
   {
-    src: "../Public/img4.webp",
+    src: "/img4.webp",
     alt: "Diseño de uñas 3",
     span: "md:col-span-1 md:row-span-2",
   },
   {
-    src: "../Public/img3.jpg",
+    src: "/img3.jpg",
     alt: "Diseño de uñas 4",
     span: "md:col-span-1 md:row-span-1",
   },
   {
-    src: "../Public/img6.webp",
+    src: "/img6.webp",
     alt: "Diseño de uñas 5",
     span: "md:col-span-2 md:row-span-1",
   },
   {
-    src: "../Public/img5.webp",
+    src: "/img5.webp",
     alt: "Diseño de uñas 6",
     span: "md:col-span-1 md:row-span-1",
   },
   {
-    src: "../Public/img7.jpg",
+    src: "/img7.jpg",
     alt: "Diseño de uñas 7",
     span: "md:col-span-2 md:row-span-1",
   },
   {
-    src: "../Public/img8.jpg",
+    src: "/img8.jpg",
     alt: "Diseño de uñas 8",
     span: "md:col-span-2 md:row-span-1",
   },
