@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className="w-full h-80 md:h-full rounded-lg overflow-hidden shadow-xl">
           <img
-            src="../public/working.png"
+            src="/working.png"
             alt="Interior del salón de uñas"
             className="w-full h-full object-cover"
           />
